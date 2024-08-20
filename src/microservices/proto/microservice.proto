@@ -1,0 +1,8 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package backend;
+
+service testMicroservice {
+     rpc hello(google.protobuf.Empty) returns (google.protobuf.Empty) {}
+     
+}
